@@ -1,12 +1,27 @@
 .App {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  background-color: blanchedalmond;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: rgb(72, 8, 133);
+  font-size: 40pt;
 }
-
+p {
+  color: rgb(32, 113, 194);
+  font-size: 24pt;
+}
+button {
+  background-color: rgb(226, 175, 65);
+  border-radius: 50px;
+  width: 20%;
+  height: 20%;
+  padding: 20px;
+  font-size: 16pt;
+  border: 5px solid black;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
