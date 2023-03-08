@@ -16,12 +16,14 @@ p {
 button {
   background-color: rgb(226, 175, 65);
   border-radius: 50px;
-  width: 20%;
+  width: auto;
   height: 20%;
   padding: 20px;
   font-size: 16pt;
   border: 5px solid black;
+  box-shadow: 10px 10px 10px rgb(23, 88, 209);
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
